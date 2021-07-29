@@ -1,0 +1,37 @@
+{
+	"sectors_info" : [
+
+		{
+			"sector_id":"t019314-0",
+			"ticket":"cf19ff95d04f12a78e99ee43ef3fa0c96b85d3c2d10f73e71868eb880e94f976",
+			"storage_path":"10.88.66.26:/home/nfs"
+		},
+		{
+			"sector_id":"t019338-1",
+			"ticket":"ecf151ee90d04a73e407b44cbd7df8764e04622c64496cb0a2beea276e22d73f",
+			"storage_path":"10.88.66.26:/home/nfs"
+		},
+
+		{
+			"sector_id":"t019338-2",
+			"ticket":"ecf151ee90d04a73e407b44cbd7df8764e04622c64496cb0a2beea276e22d73f",
+			"storage_path":"10.88.66.26:/home/nfs"
+		},
+		{
+			"sector_id":"t019338-3",
+			"ticket":"ecf151ee90d04a73e407b44cbd7df8764e04622c64496cb0a2beea276e22d73f",
+			"storage_path":"10.88.66.26:/home/nfs"
+		},
+		{
+			"sector_id":"t019338-4",
+			"ticket":"ecf151ee90d04a73e407b44cbd7df8764e04622c64496cb0a2beea276e22d73f",
+			"storage_path":"10.88.66.26:/home/nfs"
+		},
+		{
+			"sector_id":"t019338-5",
+			"ticket":"8deee8fbd4c57921314c03faee9792f11bca5a8d34345e10d1e578ff244cf720",
+			"storage_path":"10.88.66.26:/home/nfs"
+		}
+
+	]
+}

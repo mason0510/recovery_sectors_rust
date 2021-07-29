@@ -1,0 +1,16 @@
+{
+	"workers": [
+		{
+			"ip": "10.88.66.32:22",
+			"password": "Hbtworker2020."
+		},
+		{
+			"ip": "10.88.66.26:22",
+			"password": "Hbtworker2020."
+		},
+		{
+			"ip": "10.88.66.33:22",
+			"password": "Hbtminer2020."
+		}
+	]
+}
