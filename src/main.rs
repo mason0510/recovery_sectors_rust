@@ -67,7 +67,8 @@ fn queues_done(workers: &WorkersInfo) {
 
 fn main() -> Result<()>{
     env_logger::init();
-    let mut sectors_info_file = "/data/sdb/lotus-user-1/.lotusstorage/sector_info.json".to_string();
+    // let mut sectors_info_file = "/data/sdb/lotus-user-1/.lotusstorage/sector_info.json".to_string();
+    let mut sectors_info_file = "sector_info.json".to_string();
     let mut par_num = "1".to_string();
     let mut recover_sectors_file = "".to_string();
     let mut workers_file = "".to_string();
@@ -212,6 +213,7 @@ fn main() -> Result<()>{
     Ok(())
 }
 
+//test func
 #[cfg(test)]
 mod test {
     #[test]
