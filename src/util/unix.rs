@@ -30,13 +30,16 @@ impl Shell {
         channel.wait_close();
         Ok(())
     }
-
+//运行bench 信息
     pub fn run_bench(&self, sector_id: &str, ticket: &str) -> Result<()> {
         let mut channel = self.sess.channel_session()?;
         let bench_cmd = format!(
-            "RUST_LOG=Info /root/hlm-miner/apps/lotus/lotus-bench recovery --storage-dir=/home/recovery_data \
-            --sector-size=512MiB --sector-id={} --ticket={} \
-            > /home/recovery_data/512MiB_{}.log 2>&1 &",
+            // "RUST_LOG=Info /root/hlm-miner/apps/lotus/lotus-bench recovery --storage-dir=/home/recovery_data \
+            // --sector-size=512MiB --sector-id={} --ticket={} \
+            // > /home/recovery_data/512MiB_{}.log 2>&1 &",
+            "RUST_LOG=Full /root/zxc-dev/lotus/lotus-bench recovery --storage-dir=/data/recovery_data \
+            --sector-size=32GiB --sector-id={} --ticket={} \
+            > /data/recovery_data/32GiB_{}.log 2>&1 &",
             sector_id, ticket, sector_id);
         log::info!("run bench --{}--", bench_cmd);
         channel.exec(bench_cmd.as_str())?;
